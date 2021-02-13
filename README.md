@@ -1,6 +1,6 @@
 # Countries API
 
-<img src="https://i.imgur.com/ubg3Iso.png" alt="Country API">
+<img src="https://i.imgur.com/ubg3Iso.png" alt="Countries API">
 
 ## Technologies used 🛠️
 * Vanilla JavaScript
