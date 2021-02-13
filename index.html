@@ -1,0 +1,68 @@
+<!--
+* Purpose: Main HTML File
+* Author: Itamar Rosenblum
+* Date: 09-02-2021
+* Last modified: none
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountryAPI</title>
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header section-->
+    <header>
+        <h1>CountryAPI 🌍</h1>
+    </header>
+
+    <!-- Main section start here -->
+    <main>
+        <!-- Countries section -->
+        <section class="section-countries">
+            <!-- Form container -->
+            <div class="form-container">
+                <form action="#" method="get" target="_self">
+                    <!-- Search by name -->
+                    <input type="search" autocomplete="off" placeholder="Search By Name" id="input-text"> 
+                    <button type="submit" id="btn-search" class="btn-search"><ion-icon name="search-outline"></ion-icon></button>
+                    <span>or</span>
+                    <!-- Search all -->
+                    <button type="submit" id="btn-all-cty" class="btn-all">Search All</button>
+                </form>
+            </div>
+
+            <!-- Countries container -->
+            <div class="countries-container">
+                <table>
+                    <thead>
+                        <tr class="tr-head">
+                            <th>Name</th>
+                            <th>Flag</th>
+                            <th>Top level domain</th>
+                            <th>Capital</th>
+                            <th>Currencies</th>
+                            <th>Borders</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <!-- Content is created by JS -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <!-- Ionicon CDN -->
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+    <!-- Main JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
