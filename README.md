@@ -8,7 +8,7 @@
 * Vanilla CSS3
 
 ## Description 📝
-- The countries API provides information about countries.
+- The Countries API provides information about countries such as capital city, top-level domain, and more.
 
 For the full API documentation, <strong><a href="https://restcountries.eu/">Click Here</a></strong>.
 
